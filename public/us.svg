@@ -1,0 +1,48 @@
+<svg width="32" height="24" viewBox="0 0 32 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_us)">
+<rect width="32" height="24" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V24H32V0H0Z" fill="#F1F9FF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V1.846H32V0H0Z" fill="#B31942"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 3.692V5.538H32V3.692H0Z" fill="#B31942"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 7.385V9.231H32V7.385H0Z" fill="#B31942"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 11.077V12.923H32V11.077H0Z" fill="#B31942"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 14.769V16.615H32V14.769H0Z" fill="#B31942"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 18.462V20.308H32V18.462H0Z" fill="#B31942"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 22.154V24H32V22.154H0Z" fill="#B31942"/>
+<rect x="0" y="0" width="12.8" height="12.923" fill="#0A3161"/>
+<g fill="white">
+<circle cx="1.28" cy="1.077" r="0.3"/>
+<circle cx="3.84" cy="1.077" r="0.3"/>
+<circle cx="6.4" cy="1.077" r="0.3"/>
+<circle cx="8.96" cy="1.077" r="0.3"/>
+<circle cx="11.52" cy="1.077" r="0.3"/>
+<circle cx="2.56" cy="3.231" r="0.3"/>
+<circle cx="5.12" cy="3.231" r="0.3"/>
+<circle cx="7.68" cy="3.231" r="0.3"/>
+<circle cx="10.24" cy="3.231" r="0.3"/>
+<circle cx="1.28" cy="5.385" r="0.3"/>
+<circle cx="3.84" cy="5.385" r="0.3"/>
+<circle cx="6.4" cy="5.385" r="0.3"/>
+<circle cx="8.96" cy="5.385" r="0.3"/>
+<circle cx="11.52" cy="5.385" r="0.3"/>
+<circle cx="2.56" cy="7.539" r="0.3"/>
+<circle cx="5.12" cy="7.539" r="0.3"/>
+<circle cx="7.68" cy="7.539" r="0.3"/>
+<circle cx="10.24" cy="7.539" r="0.3"/>
+<circle cx="1.28" cy="9.693" r="0.3"/>
+<circle cx="3.84" cy="9.693" r="0.3"/>
+<circle cx="6.4" cy="9.693" r="0.3"/>
+<circle cx="8.96" cy="9.693" r="0.3"/>
+<circle cx="11.52" cy="9.693" r="0.3"/>
+<circle cx="2.56" cy="11.846" r="0.3"/>
+<circle cx="5.12" cy="11.846" r="0.3"/>
+<circle cx="7.68" cy="11.846" r="0.3"/>
+<circle cx="10.24" cy="11.846" r="0.3"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_us">
+<rect width="32" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>
