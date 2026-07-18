@@ -32,6 +32,10 @@ yarn-error.log*
 # commandcode
 .commandcode/
 
+# local context
+CONTEXT.md
+context.md
+
 # vercel
 .vercel
 
