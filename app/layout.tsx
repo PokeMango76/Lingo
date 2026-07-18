@@ -12,9 +12,6 @@ const font = Nunito({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Lingo - Learn English",
   description: "Game hóa học tiếng Anh",
-  icons: {
-    icon: "/bg.jpg",
-  },
 };
 
 export default function RootLayout({
