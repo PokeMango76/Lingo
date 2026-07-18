@@ -151,7 +151,7 @@ const main = async () => {
       { id: 13, lessonId: 5, type: "ASSIST", question: '"How are you?"', order: 1 },
       { id: 14, lessonId: 5, type: "SELECT", question: 'Which one means "What is your name?"?', order: 2 },
       { id: 15, lessonId: 5, type: "ASSIST", question: '"Where are you from?"', order: 3 },
-    ];
+    ] as const;
 
     // ============================================================
     // CHALLENGES — English (lessonId 6-46)
@@ -340,10 +340,12 @@ const main = async () => {
       { id: 136, lessonId: 46, type: "SELECT", question: 'Which one means "Bạn muốn đi đâu?"?', order: 1 },
       { id: 137, lessonId: 46, type: "ASSIST", question: 'How do you say "Hẹn gặp bạn lúc 7 giờ"?', order: 2 },
       { id: 138, lessonId: 46, type: "SELECT", question: 'Which one means "Chúc chuyến đi vui vẻ"?', order: 3 },
-    ];
+    ] as const;
 
-    const allChallenges = [...challengesSpanish, ...challengesEnglish];
-    for (const c of allChallenges) {
+    for (const c of challengesSpanish) {
+      await db.insert(schema.challenges).values(c);
+    }
+    for (const c of challengesEnglish) {
       await db.insert(schema.challenges).values(c);
     }
 
@@ -911,8 +913,10 @@ const main = async () => {
       { challengeId: 138, text: "Have a nice day", correct: false, imageSrc: "/zombie.svg", audioSrc: null },
     ];
 
-    const allOptions = [...optionsSpanish, ...optionsEnglish];
-    for (const o of allOptions) {
+    for (const o of optionsSpanish) {
+      await db.insert(schema.challengeOptions).values(o);
+    }
+    for (const o of optionsEnglish) {
       await db.insert(schema.challengeOptions).values(o);
     }
 
